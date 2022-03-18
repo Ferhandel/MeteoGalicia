@@ -8,6 +8,7 @@ public class MeteoGalicia
 {
     public List<listaPredicions> listaPredicions;
     public string urlBase;
+    
 }
 
 [Serializable]

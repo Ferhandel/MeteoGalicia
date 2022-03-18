@@ -32,7 +32,8 @@ public class Main : MonoBehaviour
                     break;
                 case UnityWebRequest.Result.Success:
                     Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
-                    Debug.Log(listaMapas[0]);//acceder a los miembros de una lista. Se que está mal. 
+                    //Acceder a meteoGalicia para imprimirlo por pantalla
+
                     break;
             }
 
